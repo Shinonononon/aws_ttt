@@ -2,10 +2,11 @@
 lock "~> 3.19.1"
 
 set :application, "blog_app"
-set :repo_url, "https://github.com/kei-kamiguchi/blog_app.git"
+set :repo_url, "https://github.com/Shinonononon/aws_saiaku.git"
 set :bundle_without, %w{test}.join(':')
 
 set :rbenv_version, '3.3.0'
+append :linked_files, 'config/secrets.yml'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
